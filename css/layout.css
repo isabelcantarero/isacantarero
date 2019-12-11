@@ -1,0 +1,24 @@
+html {
+	
+}
+
+body {
+	margin: 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+::selection {
+	background: #E1E8FC;
+}
+
+.welcome {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.welcome img {
+	max-width: 360px;
+	width: 100%;
+}
