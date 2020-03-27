@@ -6,8 +6,8 @@ class Sketch extends React.Component {
       <div id="myCarousel" className="carousel slide" data-ride="carousel">
         
 
-        <div class="carousel-inner" id="carouselContainer">
-          <div class="item active">
+        <div className="carousel-inner" id="carouselContainer">
+          <div className="item active">
           <div id="isaIntro">
               <span className="rotate-animation-45">H</span>
               <span className="falling-animation-3s">E</span>
@@ -25,11 +25,11 @@ class Sketch extends React.Component {
             <p id="isaIntroText">HERE I WILL WRITE SOMETHING I LIKE AND BLAH BLAH.</p>
         </div>
           <div className="item" id="isaHobbies">
-            <h1 > Siiiii Dani yo te adopto </h1>
+            <h1 > WORK? </h1>
           </div>
 
           <div className="item" id="isaWork">
-            <h1 >Te adopto? </h1>
+            <h1 > HOBBY? </h1>
           </div>
         </div>
         <ol className="carousel-indicators">
