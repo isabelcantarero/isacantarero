@@ -24,10 +24,10 @@ class Navigation extends React.Component {
     return <div>
             <img onClick={this.toggleNav} className="ham-nav" src="https://img.icons8.com/ios-filled/100/000000/menu-2.png"></img>
                <nav className="top-nav-full">
-                    <a>HOME</a>
-                    <a>SKETCH</a>
-                    <a>COMIC</a>
-                    <a>CONTACT</a>
+                    <a  href="#"> HOME </a>
+                    <a href="#">SKETCH</a>
+                    <a href="#">COMIC</a>
+                    <a href="#">CONTACT</a>
                 </nav>
                 {displayNav && (
                 <nav id="hambnav" className="top-nav">

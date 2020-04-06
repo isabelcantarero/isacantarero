@@ -1,14 +1,14 @@
 /*CHECA ESTO PARA ANIMACIONES DEL MENU: https://codepen.io/EvyatarDa/pen/waKXMd  */
 
 .App, body {
-  background-color: #19bd2f;
+  background-color: #000000;
   padding-top: 8px;
   min-height: 300px;
   height: 80vh;
   text-align: center;
   justify-content: center;
   color:white;
-  font-family:  'Oswald', sans-serif;
+  font-family:  'Poppins', sans-serif;
 }
 
 .flex-container{
@@ -26,20 +26,44 @@
   flex-direction: row;
 }
 
-.top-nav-full a {
-  display:flex;
-  color:#ffffff;
-  text-align: center;
-  box-sizing: border-box;
-  margin :16px;
-  text-decoration: none;
-  font-size: 24px;
+div.top-nav-full
+{
+  font-family: Raleway;
+  margin: 0 auto;
+	padding: 10em 3em;
+	text-align: center;
 }
 
-.top-nav-full a:hover {
-  color: #ff97b4;
+.top-nav-full a {
+  color: #FFF;
+  text-decoration: none;
+  margin: 0px 10px;
+  padding: 0px 10px 0px 10px;
+  position: relative;
+  z-index: 0;
   cursor: pointer;
 }
+
+.top-nav-full a:before
+{
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    content: '';
+    background: #FFF;
+    opacity: 0.3;
+    transition: all 0.3s;
+}
+
+.top-nav-full a:hover:before
+{
+    width: 100%;
+    background: 
+}
+
+
 
 .top-nav-full a.active {
     color: white;
@@ -62,7 +86,7 @@
 }
 
 #carouselContainer{
-  width: 700px;
+  width: 900px;
   height: 450px;
 }
 
@@ -76,9 +100,25 @@
 #isaHobbies{
   min-height: 300px;
 }
+
+#isaHobbies h1{
+  font-size: 100px;
+}
+
 #isaWork{
   min-height: 300px;
 }
+
+#isaWork h1{
+  font-size: 100px;
+}
+
+.carousel-text {
+  font-size: 24px;
+  font-family: 'courier', courier;
+  text-align: center;
+}
+
 
 #isaIntro {
   display:flex;
@@ -87,11 +127,6 @@
   align-items: center;
   perspective: 1000px; 
   margin: 32px;
-}
-
-#isaIntroText {
-  font-size: 24px;
-  font-family: 'Montserrat', courier;
 }
 
 #isaIntro span {
@@ -213,6 +248,8 @@
 
   .top-nav-full{
     display:none;
+    position: relative;
+	 z-index: 10;
   }
 
   .top-nav {
