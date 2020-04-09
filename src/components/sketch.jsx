@@ -7,7 +7,7 @@ class Sketch extends React.Component {
 
         <div className="carousel-inner" id="carouselContainer">
           <div className="item active">
-          <div id="isaIntro">
+            <div id="isaIntro">
               <span className="rotate-animation-45">H</span>
               <span className="falling-animation-3s">E</span>
               <span className="swap-animation-3s">Y</span>
@@ -20,9 +20,9 @@ class Sketch extends React.Component {
               <span className="jump-animation-3s"> I</span>
               <span className="falling-animation-5s"> S</span>
               <span className="swap-animation-5s"> A</span>
-          </div>
+            </div>
             <p className="carousel-text">I'm a web developer currently working @ Oracle in Guadalajara, Mexico.</p>
-        </div>
+          </div>
           <div className="item" id="isaWork">
             <h1> WHAT I DO  </h1>
             <p className="carousel-text"> I work as a Frontend Developer in my team and play the Scrum Master role in our scrum sesions.
@@ -34,7 +34,7 @@ class Sketch extends React.Component {
             <p className="carousel-text">I love how technology and design combined can create such extraordinary projects
           and how interesting is all the logistics behind the making of an amazing project. </p>
           </div>
-          
+
         </div>
         <ol className="carousel-indicators">
           <li data-target="#myCarousel" data-slide-to="0" className="active"></li>

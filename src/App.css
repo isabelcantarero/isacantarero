@@ -60,10 +60,8 @@ div.top-nav-full
 .top-nav-full a:hover:before
 {
     width: 100%;
-    background: 
+    background: gray;
 }
-
-
 
 .top-nav-full a.active {
     color: white;
@@ -87,7 +85,7 @@ div.top-nav-full
 
 #carouselContainer{
   width: 900px;
-  height: 450px;
+  height: 350px;
 }
 
 
@@ -118,7 +116,6 @@ div.top-nav-full
   font-family: 'courier', courier;
   text-align: center;
 }
-
 
 #isaIntro {
   display:flex;
