@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Sketch from './components/sketch.jsx'
+import Sketch from './components/carousel.jsx'
 import Navigation from './components/navigation.jsx'
 
 
@@ -12,9 +12,7 @@ function App() {
       <header>
         <Navigation></Navigation>
       </header>
-      <body className="flex-container">
-        <Sketch></Sketch>
-      </body>
+      
     </div>
   );
 }

@@ -315,6 +315,19 @@ div.top-nav-full
     height: 250px;
   }
 
+
+  /* SKETCHES:  */
+
+.dot {
+  background-color: chartreuse;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+}
+
+
+
+
 }
 
 
