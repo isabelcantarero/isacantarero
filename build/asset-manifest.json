@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/isabelcantarero/isacantarero/static/css/main.52e83449.chunk.css",
+    "main.js": "/isabelcantarero/isacantarero/static/js/main.1f2783c6.chunk.js",
+    "main.js.map": "/isabelcantarero/isacantarero/static/js/main.1f2783c6.chunk.js.map",
+    "runtime-main.js": "/isabelcantarero/isacantarero/static/js/runtime-main.49bf695b.js",
+    "runtime-main.js.map": "/isabelcantarero/isacantarero/static/js/runtime-main.49bf695b.js.map",
+    "static/js/2.3cbf5f71.chunk.js": "/isabelcantarero/isacantarero/static/js/2.3cbf5f71.chunk.js",
+    "static/js/2.3cbf5f71.chunk.js.map": "/isabelcantarero/isacantarero/static/js/2.3cbf5f71.chunk.js.map",
+    "index.html": "/isabelcantarero/isacantarero/index.html",
+    "precache-manifest.966f602e847d641add061f39f72efee4.js": "/isabelcantarero/isacantarero/precache-manifest.966f602e847d641add061f39f72efee4.js",
+    "service-worker.js": "/isabelcantarero/isacantarero/service-worker.js",
+    "static/css/main.52e83449.chunk.css.map": "/isabelcantarero/isacantarero/static/css/main.52e83449.chunk.css.map",
+    "static/js/2.3cbf5f71.chunk.js.LICENSE.txt": "/isabelcantarero/isacantarero/static/js/2.3cbf5f71.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/isabelcantarero/isacantarero/static/media/logo.ee7cd8ed.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.49bf695b.js",
+    "static/js/2.3cbf5f71.chunk.js",
+    "static/css/main.52e83449.chunk.css",
+    "static/js/main.1f2783c6.chunk.js"
+  ]
+}
