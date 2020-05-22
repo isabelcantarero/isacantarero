@@ -14,11 +14,11 @@ function App() {
         <header>
           <nav className="top-nav-full">
             <div className="navbar-nav mr-auto">
-              <Link to={"/"} className="nav-link">
+              <Link to={process.env.PUBLIC_URL + '/'} className="nav-link">
                 {" "}
                 Home{" "}
               </Link>
-              <Link to={"/about"} className="nav-link">
+              <Link to={process.env.PUBLIC_URL + '/about'} className="nav-link">
                 About
               </Link>
             </div>
