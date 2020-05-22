@@ -1,44 +1,30 @@
-import React, { Component } from 'react';
-import classNames from 'classnames';
+import React, { Component } from "react";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import classNames from "classnames";
+import Home from './home.jsx';
+import About from './about.jsx';
 
 class Navigation extends React.Component {
-
-    constructor(props) {
-        super(props);
-        this.state = {
-            displayNav: false
-        };
-        this.toggleNav = this.toggleNav.bind(this);
-    };
-
-    toggleNav() {
-        let openNav = this.state.displayNav;
-        this.setState({
-            displayNav: !openNav
-        });
-    };
-
-
-    render() {
-        const { displayNav } = this.state;
-        return <div>
-            <img onClick={this.toggleNav} className="ham-nav" src="https://img.icons8.com/ios-filled/100/000000/menu-2.png"></img>
-            <nav className="top-nav-full">
-                <a href="#"> HOME </a>
-                <a href="#">SKETCH</a>
-                <a href="#">COMIC</a>
-                <a href="#">CONTACT</a>
-            </nav>
-            {displayNav && (
-                <nav id="hambnav" className="top-nav">
-                    <a id="homeNav">HOME</a>
-                    <a id="sketchNav">SKETCH</a>
-                    <a id="comicNav">COMIC</a>
-                    <a id="contatcNav">CONTACT</a>
-                </nav>
-            )}
-        </div>;
-    }
+  render() {
+    return (
+        <Router>
+        <div>
+          <nav className="top-nav-full">
+          <div className="navbar-nav mr-auto">
+            <Link to={'/'} className="nav-link"> Home </Link>
+            <Link to={'/about'} className="nav-link">About</Link>
+          </div>
+          </nav>
+          <Switch>
+              <Route exact path='/' component={Home} />
+              <Route path='/about' component={About} />
+          </Switch>
+        </div>
+      </Router>
+    );
+  }
 }
+
+
 
 export default Navigation;

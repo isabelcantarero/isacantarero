@@ -1,16 +1,20 @@
 /*CHECA ESTO PARA ANIMACIONES DEL MENU: https://codepen.io/EvyatarDa/pen/waKXMd  */
 
 .App, body {
-  background-color: #000000;
+  background: #f8f3f0;
   padding-top: 8px;
   min-height: 300px;
   height: 80vh;
   text-align: center;
   justify-content: center;
-  color:white;
+  color:#5a3b21;
   font-family:  'Poppins', sans-serif;
 }
 
+p{
+  font-size: 20px;
+}
+ 
 .flex-container{
   display: flex;
   justify-content: center;
@@ -26,6 +30,16 @@
   flex-direction: row;
 }
 
+.carousel-indicators li {
+  border: 1px solid #eeaeca;
+}
+
+.carousel-indicators .active{
+  background-color: #d4213c;
+  border: 1px solid #d4213c;
+  opacity: 0.6;
+}
+
 div.top-nav-full
 {
   font-family: Raleway;
@@ -35,7 +49,7 @@ div.top-nav-full
 }
 
 .top-nav-full a {
-  color: #FFF;
+  color: #5a3b21;
   text-decoration: none;
   margin: 0px 10px;
   padding: 0px 10px 0px 10px;
@@ -52,7 +66,7 @@ div.top-nav-full
     left: 0px;
     top: 0px;
     content: '';
-    background: #FFF;
+    background: #f8f3f0;
     opacity: 0.3;
     transition: all 0.3s;
 }
@@ -60,7 +74,7 @@ div.top-nav-full
 .top-nav-full a:hover:before
 {
     width: 100%;
-    background: gray;
+    background: #d4213c;
 }
 
 .top-nav-full a.active {
@@ -113,7 +127,7 @@ div.top-nav-full
 
 .carousel-text {
   font-size: 24px;
-  font-family: 'courier', courier;
+  font-family: 'Poppins', courier;
   text-align: center;
 }
 

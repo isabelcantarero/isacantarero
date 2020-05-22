@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
-class Sketch extends React.Component {
+class Home extends React.Component {
   render() {
-    return <div>
+    return <div id="test">
       <div id="myCarousel" className="carousel slide" data-ride="carousel">
 
         <div className="carousel-inner" id="carouselContainer">
@@ -48,4 +48,4 @@ class Sketch extends React.Component {
   }
 }
 
-export default Sketch;
+export default Home;
