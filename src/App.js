@@ -13,11 +13,11 @@ function App() {
         <header>
           <nav className="top-nav-full">
             <div className="navbar-nav mr-auto">
-              <Link to={"/"} className="nav-link">
+              <Link to={"process.env.https://isabelcantarero.github.io/isacantarero/"} className="nav-link">
                 {" "}
                 Home{" "}
               </Link>
-              <Link to={"/about"} className="nav-link">
+              <Link to={"process.env.https://isabelcantarero.github.io/isacantarero/about"} className="nav-link">
                 About
               </Link>
             </div>
