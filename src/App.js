@@ -13,11 +13,11 @@ function App() {
         <header>
           <nav className="top-nav-full">
             <div className="navbar-nav mr-auto">
-              <Link to={"/"} className="nav-link">
+              <Link to={"/isacantarero/"} className="nav-link">
                 {" "}
                 Home{" "}
               </Link>
-              <Link to={"/about"} className="nav-link">
+              <Link to={"/isacantarero/about"} className="nav-link">
                 About
               </Link>
             </div>
@@ -26,8 +26,8 @@ function App() {
 
         <body className="flex-container">
           <Switch>
-            <Route exact path="/" component={Home} />
-            <Route path="/about" component={About} />
+            <Route exact path="/isacantarero/" component={Home} />
+            <Route path="/isacantarero/about" component={About} />
           </Switch>
         </body>
       </div>
