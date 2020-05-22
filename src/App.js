@@ -13,11 +13,11 @@ function App() {
         <header>
           <nav className="top-nav-full">
             <div className="navbar-nav mr-auto">
-              <Link to={"/isacantarero/"} className="nav-link">
+              <Link to={"/"} className="nav-link">
                 {" "}
                 Home{" "}
               </Link>
-              <Link to={"/isacantarero/about"} className="nav-link">
+              <Link to={"/about"} className="nav-link">
                 About
               </Link>
             </div>
@@ -26,8 +26,8 @@ function App() {
 
         <body className="flex-container">
           <Switch>
-            <Route exact path="/isacantarero/" component={Home} />
-            <Route path="/isacantarero/about" component={About} />
+            <Route exact path="process.env.https://isabelcantarero.github.io/isacantarero/" component={Home} />
+            <Route path="https://isabelcantarero.github.io/isacantarero/about" component={About} />
           </Switch>
         </body>
       </div>
