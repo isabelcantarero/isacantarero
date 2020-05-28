@@ -13,7 +13,7 @@ function App() {
         <header>
           <nav className="top-nav-full">
             <div className="navbar-nav mr-auto">
-              <Link to={{pathname: "/"}} className="nav-link">
+              <Link to={{pathname: process.env.PUBLIC_URL +"/"}} className="nav-link">
                 {" "}
                 Home{" "}
               </Link>
