@@ -5,7 +5,6 @@ import { HashRouter } from 'react-router-dom';
 import "./App.css";
 import Home from "./components/home.jsx";
 import About from "./components/about.jsx";
-import Navigation from "./components/navigation.jsx";
 
 function App() {
   return (
@@ -14,11 +13,11 @@ function App() {
         <header>
           <nav className="top-nav-full">
             <div className="navbar-nav mr-auto">
-              <Link to={process.env.PUBLIC_URL + '/'} className="nav-link">
+              <Link to={'/'} className="nav-link">
                 {" "}
                 Home{" "}
               </Link>
-              <Link to={process.env.PUBLIC_URL + '/about'} className="nav-link">
+              <Link to={'/about'} className="nav-link">
                 About
               </Link>
             </div>
@@ -27,8 +26,8 @@ function App() {
 
         <body className="flex-container">
           <Switch>
-            <Route path={process.env.PUBLIC_URL + '/'} component={Home} />
-            <Route path={process.env.PUBLIC_URL + '/about'} component={About} />
+            <Route exact path={process.env.PUBLIC_URL + '/'} component={Home} />
+            <Route exact path={process.env.PUBLIC_URL + '/about'} component={About} />
           </Switch>
         </body>
       </div>
