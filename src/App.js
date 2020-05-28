@@ -8,16 +8,16 @@ import About from "./components/about.jsx";
 
 function App() {
   return (
-    <HashRouter>
+    <HashRouter basename={process.env.PUBLIC_URL + '/'}>
       <div className="App">
         <header>
           <nav className="top-nav-full">
             <div className="navbar-nav mr-auto">
-              <Link to={process.env.PUBLIC_URL + '/'} className="nav-link">
+              <Link to={{pathname: "/"}} className="nav-link">
                 {" "}
                 Home{" "}
               </Link>
-              <Link to={process.env.PUBLIC_URL + '/about'} className="nav-link">
+              <Link to={{pathname: "/about"}} className="nav-link">
                 About
               </Link>
             </div>
