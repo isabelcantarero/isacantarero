@@ -27,7 +27,7 @@ function App() {
 
         <body className="flex-container">
           <Switch>
-            <Route exact path={process.env.PUBLIC_URL + '/'} component={Home} />
+            <Route path={process.env.PUBLIC_URL + '/'} component={Home} />
             <Route path={process.env.PUBLIC_URL + '/about'} component={About} />
           </Switch>
         </body>
