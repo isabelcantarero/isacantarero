@@ -6,7 +6,7 @@ import About from "./components/about.jsx";
 
 function App() {
   return (
-    <HashRouter basename={process.env.PUBLIC_URL + '/'}>
+    <HashRouter basename={'/'}>
       <div className="App">
         <header>
           <nav className="top-nav-full">
@@ -25,7 +25,7 @@ function App() {
         <body className="flex-container">
           <Switch>
             <Route exact path={'/'} component={Home} />
-            <Route exact path={'/about'} component={About} />
+            <Route path={'/about'} component={About} />
           </Switch>
         </body>
       </div>
