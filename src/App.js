@@ -1,8 +1,6 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import { HashRouter } from 'react-router-dom';
 import "./App.css";
+import { HashRouter, Route, Link } from "react-router-dom";
 import Home from "./components/home.jsx";
 import About from "./components/about.jsx";
 class App extends Component {
