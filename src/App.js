@@ -6,7 +6,7 @@ import About from "./components/about.jsx";
 
 function App() {
   return (
-    <HashRouter basename={'/' + process.env.PUBLIC_URL}>
+    <HashRouter basename={process.env.PUBLIC_URL}>
       <div className="App">
         <header>
           <nav className="top-nav-full">
