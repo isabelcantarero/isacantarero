@@ -24,8 +24,8 @@ function App() {
 
         <body className="flex-container">
           <Switch>
-            <Route exact path={'/'} component={Home} />
-            <Route exact path={'/about'} component={About} />
+            <Route path="/" component={Home} />
+            <Route path="/about" component={About} />
           </Switch>
         </body>
       </div>
