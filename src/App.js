@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import {HashRouter, Switch, Route, Link } from 'react-router-dom';
+import {BrowserRouter  as Router, Switch, Route, Link } from 'react-router-dom';
 import "./App.css";
 import Home from "./components/home.jsx";
 import About from "./components/about.jsx";
 
 function App() {
   return (
-    <HashRouter basename={process.env.PUBLIC_URL}>
+    <Router>
       <div className="App">
         <header>
           <nav className="top-nav-full">
@@ -29,7 +29,7 @@ function App() {
           </Switch>
         </body>
       </div>
-    </HashRouter>
+    </Router>
   );
 }
 
