@@ -1,12 +1,14 @@
 import React, { Component } from "react";
-import {BrowserRouter  as Router, Switch, Route, Link } from 'react-router-dom';
+import logo from "./logo.svg";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { HashRouter } from 'react-router-dom';
 import "./App.css";
 import Home from "./components/home.jsx";
 import About from "./components/about.jsx";
 
 function App() {
   return (
-    <Router>
+    <HashRouter basename={process.env.PUBLIC_URL + '/'}>
       <div className="App">
         <header>
           <nav className="top-nav-full">
@@ -24,12 +26,12 @@ function App() {
 
         <body className="flex-container">
           <Switch>
-            <Route path="/" component={Home} />
-            <Route path="/about" component={About} />
+            <Route exact path={'/'} component={Home} />
+            <Route exact path={'/about'} component={About} />
           </Switch>
         </body>
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
