@@ -5,7 +5,7 @@ import "./App.css";
 import Home from "./components/home.jsx";
 import About from "./components/about.jsx";
 
-function App() {
+function App(props) {
   return (
       <div className="App">
         <header>
@@ -23,7 +23,7 @@ function App() {
         </header>
 
         <body className="flex-container">
-          {this.props.conent}
+          {props.conent}
         </body>
       </div>
   );
