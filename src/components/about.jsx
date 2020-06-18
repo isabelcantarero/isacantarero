@@ -4,8 +4,7 @@ import App from '../App';
 class About extends Component {
   render() {
     return (
-      <App
-      content={
+      <App>
         <div>
           <h2>Hey</h2>
           <p>If you are watching this, thank you for passing by. 
@@ -14,8 +13,6 @@ class About extends Component {
            Im still working on content to be a great for you!
           </p>
         </div>
-        }>
-          
         </App>
     );
   }

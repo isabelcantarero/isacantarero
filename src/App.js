@@ -22,9 +22,9 @@ function App(props) {
           </nav> 
         </header>
 
-        <body className="flex-container">
-          {props.conent}
-        </body>
+        <div className="flex-container">
+          {props.children}
+        </div>
       </div>
   );
 }

@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import App from '../App';
 class Home extends React.Component {
   render() {
-    return <App 
-    content={
+    return <App >
+
       <div id="test">
       <div id="myCarousel" className="carousel slide" data-ride="carousel">
 
@@ -47,7 +47,7 @@ class Home extends React.Component {
       </div>
 
     </div>
-    }>
+  
     </App>;
   }
 }
