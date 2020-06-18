@@ -8,7 +8,7 @@ import About from "./components/about.jsx";
 
 function App() {
   return (
-    <HashRouter basename={'/'}>
+    <Router basename={'/'}>
       <div className="App">
         <header>
           <nav className="top-nav-full">
@@ -31,7 +31,7 @@ function App() {
           </Switch>
         </body>
       </div>
-    </HashRouter>
+    </Router>
   );
 }
 
