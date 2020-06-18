@@ -7,7 +7,6 @@ import About from "./components/about.jsx";
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
       <div className="App">
         <header>
           <nav className="top-nav-full">
@@ -24,13 +23,9 @@ function App() {
         </header>
 
         <body className="flex-container">
-          <Switch>
-            <Route path="/" component={Home} />
-            <Route exact path="/about" component={About} />
-          </Switch>
+          {this.props.conent}
         </body>
       </div>
-    </Router>
   );
 }
 

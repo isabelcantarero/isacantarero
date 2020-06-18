@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
-
+import App from '../App';
 class Home extends React.Component {
   render() {
-    return <div id="test">
+    return <App 
+    content={
+      <div id="test">
       <div id="myCarousel" className="carousel slide" data-ride="carousel">
 
         <div className="carousel-inner" id="carouselContainer">
@@ -44,7 +46,9 @@ class Home extends React.Component {
 
       </div>
 
-    </div>;
+    </div>
+    }>
+    </App>;
   }
 }
 
