@@ -4,7 +4,6 @@
   background: #f8f3f0;
   padding-top: 8px;
   min-height: 300px;
-  height: 80vh;
   text-align: center;
   justify-content: center;
   color:#5a3b21;
@@ -19,6 +18,7 @@ p{
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top:56px;
 }
 
 /*NAVIGATION BAR: */
@@ -77,9 +77,6 @@ div.top-nav-full
     background: #d4213c;
 }
 
-.top-nav-full a.active {
-    color: white;
-}
 
 .ham-nav {
   display: none;
@@ -99,18 +96,19 @@ div.top-nav-full
 
 #carouselContainer{
   width: 900px;
-  height: 350px;
+  height: 220px;
 }
+
 
 
 /*WORRRD*/
 
 .home-carousel{
-  min-height: 300px;
+  min-height: 100px;
 }
 
 #isaHobbies{
-  min-height: 300px;
+  min-height: 100px;
 }
 
 #isaHobbies h1{
@@ -118,7 +116,7 @@ div.top-nav-full
 }
 
 #isaWork{
-  min-height: 300px;
+  min-height: 100px;
 }
 
 #isaWork h1{
@@ -129,6 +127,15 @@ div.top-nav-full
   font-size: 24px;
   font-family: 'Poppins', courier;
   text-align: center;
+}
+
+.isa-image-intro{
+  padding-left: 100px;
+  height:200px;
+}
+
+.ig-icon{
+  height:64px;
 }
 
 #isaIntro {
@@ -247,6 +254,15 @@ div.top-nav-full
 		transform: rotateY(360deg);
 	}
 }
+
+
+
+/*------------------- ABOUT ------------------*/
+
+.about-container{
+  margin-top:100px;
+}
+
 
 
 
