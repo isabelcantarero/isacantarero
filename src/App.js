@@ -8,7 +8,7 @@ import About from "./components/about.jsx";
 function App(props) {
   return (
       <div className="App">
-        <header>
+        {/* <header>
           <nav className="top-nav-full">
             <div className="navbar-nav mr-auto">
               <Link to="/" className="nav-link">
@@ -20,7 +20,7 @@ function App(props) {
               </Link>
             </div>
           </nav> 
-        </header>
+        </header> */}
 
         <div className="flex-container">
           {props.children}

@@ -1,6 +1,6 @@
 /*CHECA ESTO PARA ANIMACIONES DEL MENU: https://codepen.io/EvyatarDa/pen/waKXMd  */
 
-.App, body {
+/* .App, body {
   background: #f8f3f0;
   padding-top: 8px;
   text-align: center;
@@ -8,6 +8,128 @@
   color:#5a3b21;
   font-family: 'Poppins', sans-serif;
   font-size: 2vh;
+} */
+
+.App, body{
+  background: #FF6B81;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight:bold;
+}
+
+.bg-container{
+  text-align: center;
+  justify-content: center;
+  height: 35em;
+  width: 80em;
+  border-radius: 45px;
+  background-color: #F4E3E3;
+  box-shadow: 2px 10px 40px 2px #ce4b5f; 
+  
+  top: 10%;
+  bottom: 10%;
+  position: absolute;
+}
+
+
+.dialog-box{
+  z-index: 1;
+  border-radius: 40px;
+  width: 30em;
+  margin-top:11em;
+  height: 20em;
+  padding:5px;
+  color: #F4F4F4;
+  box-shadow: 0px 0px 0px 7px #2F3542;
+  border: 3px dashed #F4F4F4;
+  background-color:#2F3542;
+}
+
+.main-container {
+  background-color: #F4E3E3;
+  justify-content: center;
+  align-content: center;
+  display:flex;
+  flex-direction: row;
+  padding: 50px;
+  width: 55em;
+  height: 35em;
+  border-radius: 45px 0px 0px 45px;
+  float: left;
+}
+
+.side-bar-container{
+  background-color: white;
+  float: right;
+  width: 25em;
+  height: 35em;
+  border-radius: 45px;
+}
+
+.presentation-container{
+  background-color: #FF6B81; 
+  border-radius: 45px;
+  width: 25em;
+  height: 12em;
+  color: #F4F4F4;
+  margin-right: 1vw;
+}
+
+.work-set-container{
+  height: 12em;
+  width: 20em;
+}
+
+.work-container{
+  display:flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top:5px;
+}
+
+.oracle-logo{
+  height: 1em;
+  display: flex;
+  margin-left: 60px;
+}
+
+.work-box-container{
+  background-color: #2F3542;
+  cursor: pointer;
+  border-radius: 15px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  flex-direction : column;
+  align-items: center;
+  color: #f4f4f4;
+  width: 5em;
+  height: 5em;
+}
+
+.work-box-title{
+  font-size: 36px;
+  max-height: 40px;
+  font-size:bold;
+}
+
+.work-box-subtitle{
+  font-weight: lighter;
+  font-size:12px;
+  max-height: 30px;
+}
+
+.presentation-image{
+  height: 9em;
+  width: 25em;
+  border-radius: 45px 45px 0px 0px;
+}
+
+.dialog-container{
+  height: 10em;
+  width: 15em;
+  background-color: darkviolet;
+ 
 }
 
 header{
@@ -17,8 +139,6 @@ header{
 .flex-container{
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin-top:7em;
 }
 
 /*NAVIGATION BAR: */
