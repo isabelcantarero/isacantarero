@@ -5,27 +5,25 @@ import "./App.css";
 import Home from "./components/home.jsx";
 import About from "./components/about.jsx";
 
-function App(props) {
+const App = (props) => {
   return (
-      <div className="App">
-        {/* <header>
-          <nav className="top-nav-full">
-            <div className="navbar-nav mr-auto">
-              <Link to="/" className="nav-link">
-                {" "}
-                Home{" "}
-              </Link>
-              <Link to="/about" className="nav-link">
-                About
-              </Link>
-            </div>
-          </nav> 
-        </header> */}
+    <div className="App">
+      <header>
+        <nav className="top-nav-full">
+          <div>
+            <Link to="/" className={props.homeClass}>
+              {" "}
+              Home{" "}
+            </Link>
+            <Link to="/about" className={props.aboutClass}>
+              About
+            </Link>
+          </div>
+        </nav>
+      </header>
 
-        <div className="flex-container">
-          {props.children}
-        </div>
-      </div>
+      <body className="flex-container">{props.children} </body>
+    </div>
   );
 }
 
