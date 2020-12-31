@@ -24,7 +24,7 @@
 
 /*------------------- ABOUT ------------------*/
 
-.bg-container{
+.bg-about-container{
   text-align: center;
   justify-content: center;
   height: 42em;
@@ -445,6 +445,40 @@ header{
 
 
 /*-----------------------------HOME-----------------------------*/
+
+
+.bg-home-container{
+  height: 30em;
+  width: 90em;
+  background-color: #F4E3E3;
+  margin-top: 15%;
+  bottom: 5%;
+}
+
+.home-catch-container{
+  transform: rotate(-90deg);
+  -webkit-text-stroke: 0.5px #5a3b21;
+  color:#5a3b21;
+  font-size: 32px;
+  height: 4em;
+  width: 40em;
+}
+
+.home-titles-container{
+  height: 5em;
+  width: 60em;
+  float:right;
+  display: flex;
+  text-align: right;
+}
+
+.home-titles{
+  -webkit-text-stroke: 0.5px #B3B58D;
+  color:#B3B58D;
+  font-size: 32px;
+}
+
+
 
 
 /*------------------- PHONE SIZE ------------------*/

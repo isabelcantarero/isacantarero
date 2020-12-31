@@ -204,31 +204,12 @@ class About extends Component {
     });
   }
 
-  // handleHomeLinkClass(){
-  //   console.log("")
-  //   this.setState((prevState) => {
-  //     return {
-  //       homeLinkClass: "nav-link-active",
-  //       aboutLinkClass : "nav-link-inactive"
-  //     };
-  //   });
-  // }
-
-  // handleAboutLinkClass(){
-  //   this.setState((prevState) => {
-  //     return {
-  //       homeLinkClass: "nav-link-inactive",
-  //       aboutLinkClass : "nav-link-active"
-  //     };
-  //   });
-  // }
-
   render() {
     return (
       <App
       homeClass={this.state.homeLinkClass}
       aboutClass={this.state.aboutLinkClass}>  
-        <div className="bg-container">
+        <div className="bg-about-container">
           <div className="main-container">
             <div className="upper-container">
               {/* <Presentation></Presentation> */}
