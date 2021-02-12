@@ -62,8 +62,8 @@ class About extends Component {
     this.setState((prevState) => {
       return {
         dialogClass: "hide-dialog",
-        dialogTitle: "",
-        dialogContent: "",
+        dialogTitle: "Hi, this is still a work in progress but I will love to colab with you! Please find me on my ig",
+        dialogContent: "Hi, this is still a work in progress but I will love to colab with you! Please find me on my ig",
         cancelMailDialogClass : "cancel-mail-button",
         stampClass : "stamp",
         cardClass : "card-container"
@@ -172,6 +172,7 @@ class About extends Component {
 
   handleCloseDialog() {
     this.setState((prevState) => {
+      console.log("asi te escuchas");
       return {
         dialogClass: "hide-dialog",
         cardClass : "hide-dialog",
