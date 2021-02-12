@@ -4,9 +4,7 @@ const contact = (props) => {
   return (
     <div className="profile-container">
       <div className="profile-container-upper-part">
-        <div className="profile-image">
-          <span className="profile-icon fas fa-user-astronaut"></span>
-        </div>
+
         <div className="profile-name-container">
           <h2 className="profile-name">Isa Cantarero</h2>
           <button

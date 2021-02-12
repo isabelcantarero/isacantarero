@@ -13,6 +13,8 @@ const stamp = (props) => {
         <span className="fa fa-close"></span>
       </button>
       <img className={props.stampClass} src={queenstamp} alt="matrix" />
+      <h1>  Hey thanks for passing by!</h1>
+      <p className="post-body"> I would love to colaborate with you, please contact me on isacantarero1@gmail.com </p>
     </div>
   );
 };

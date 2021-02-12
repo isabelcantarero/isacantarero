@@ -261,6 +261,14 @@ class About extends Component {
           stampClass={this.state.stampClass}
           ></Stamp>
 
+        <div className="home-titles-container">
+            <p className="just-mobile"> Hey! Isa here, looks like you found a work in progress :D </p>
+            <p className="just-mobile"> Please find me on my ig, I'd love to hear from you! </p>
+            <div className="just-mobile">
+             <a href={"\http://instagram.com/isa.cantarero"}><img className="ig-icon" src={igicon} alt="ig"/> </a>
+            
+            </div>
+        </div>
         </div>
       </App>
     );

@@ -27,12 +27,12 @@
 .bg-about-container{
   text-align: center;
   justify-content: center;
-  height: 42em;
-  width: 90em;
-  border-radius: 45px;
+  display:flex;
+  flex-direction:row;
+  width:1000px;
+  min-width: 1025px;
   top: 7%;
   bottom: 5%;
-  position: absolute;
 }
 
 .cross-button{
@@ -41,30 +41,34 @@
   border:none;
   margin:6px 10px 0px 0px;
   float: right;
+  font-size:20px;
 }
 
 .cross-button-hover{
   color: #ffeed0;
   background: none;
   border:none;
-  margin:6px 10px 0px 0px;
+  margin:5px 9px 0px 0px;
   float: right;
+  font-size:22px;
 }
 
 .cancel-mail-button{
   color: #F4F4F4;
   background: none;
   border:none;
-  margin:6px 10px 0px 0px;
+  margin:-10px -6px 1px 1px;
   float: right;
+  font-size:20px;
 }
 
 .cancel-mail-button-hover{
   color: #ffeed0;
   background: none;
   border:none;
-  margin:6px 10px 0px 0px;
+  margin:-11px -7px 0px 0px;
   float: right;
+  font-size:22px;
 }
 
 .dialog-title{
@@ -84,6 +88,12 @@
 .dialog-content {
   margin-top: 100px;
   font-weight: normal;
+  font-size: 16px;
+}
+
+.full-bg-dialog{
+  height: 100%;
+  width: 100%;
 }
 
 .full-bg-dialog{
@@ -94,13 +104,12 @@
 .dialog-box {
   z-index: 2;
   border-radius: 40px;
-  width: 32em;
+  width: 522px;
   opacity: 0.98;
-  flex-direction : row;
   position:absolute;
-  margin: 9em 28em;
-  height: 20em;
-  padding: 16px;
+  height: 310px;
+  top: 30%;
+  padding: 24px;
   color: #F4F4F4;
   box-shadow: 0px 6px 10px #70171d;
   /*border: 3px dashed #F4F4F4;*/
@@ -110,23 +119,19 @@
 .upper-container{
   display:flex;
   flex-direction: row;
-  margin-top: 15em
+  margin-top: 200px;
+  width: 1000px;
 }
 
 .bottom-container{
   display:flex;
   justify-content: center;
-  align-items: center;
   padding:60px;
-  width: 62em;
-  margin-left:6em;
-  flex-direction: row;
+  width: 1000px;
 }
 
 .skills-box-container{
-  border-radius: 40px;
-  height: 12em;
-  width: 50em;
+  width: 1000px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -151,11 +156,11 @@
   background: #F4F4F4;
   border-radius: 40px;
   box-shadow: inset 2px 2px 6px #beadad;
-  height: 3.7em;
+  height: 60px;
   justify-content: center;
   display:flex;
   align-items: center;
-  width: 3.7em;
+  width: 60px;
 }
 
 .skills-circle{
@@ -163,11 +168,11 @@
   box-shadow: inset 2px 2px 6px #beadad;
   margin: 4px 0 14px 0;
   border-radius: 40px;
-  height: 3.7em;
+  height: 60px;
   justify-content: center;
   display:flex;
   align-items: center;
-  width: 3.7em;
+  width: 60px;
 }
 
 .skills-title{
@@ -190,8 +195,8 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 10em;
-  width: 4.4em;
+  height: 160px;
+  width: 70px;
   border-radius: 40px;
 }
 
@@ -200,20 +205,12 @@
   align-content: center;
   display:flex;
   flex-direction: column;
-  padding: 50px;
-  width: 55em;
-  height: 35em;
-  border-radius: 45px 0px 0px 45px;
-  float: left;
+  width: 60vw;
 }
 
 .side-bar-container{
-  float: right;
   display:flex;
-  justify-content: center;
-  width: 25em;
-  height: 42em;
-  border-radius: 45px;
+  justify-content:center;
 }
 
 .presentation-container{
@@ -225,20 +222,18 @@
 }
 
 .work-set-container{
-  margin-left: 10em;
-  height: 18em;
-  width: 51em;
+  width: 1000px;
 }
 
 .work-container{
   display:flex;
   justify-content: space-evenly;
   flex-direction: row;
-  margin-top:2em;
+  margin-top:30px;
 }
 
 .oracle-logo{
-  height: 1.2em;
+  height:20px;
   display: flex;
 }
 
@@ -253,8 +248,8 @@
   flex-direction : column;
   align-items: center;
   color: #f16870;
-  width: 10em;
-  height: 10em;
+  width: 160px;
+  height: 160px;
 }
 
 .work-box-hover{
@@ -269,8 +264,8 @@
   flex-direction : column;
   align-items: center;
   color: #f4f4f4;
-  width: 10em;
-  height: 10em;
+  width: 160px;
+  height: 160px;
   animation: wiggle 0.5s;
 }
 
@@ -285,7 +280,6 @@
     transform: scale(0.7, 1.1);
   }
 }
-
 
 .work-box-title{
   font-size: 30px;
@@ -313,21 +307,15 @@
 .profile-container{
   display:flex;
   flex-direction: column;
-  width: 22em;
-  height: 12em;
-  margin-top:2em;
+  align-items:center;
+  width: 400px;
+  height: 700px;
+  padding-top: 80px;
 }
 
 .profile-container-upper-part{
   display: flex;
   flex-direction: row;
-}
-
-.profile-image{
-  width: 6em;
-  height: 6em;
-  border-radius: 15px;
-  display:inline-block;
 }
 
 .profile-name{
@@ -338,23 +326,14 @@
 }
 
 .profile-name-container{
-  height: 6em;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
 .profile-container-bottom-part{
-  height: 2em;
   display: flex;
-  margin-right: 5em;
   justify-content: flex-end;
-}
-
-.profile-icon{
-  font-size:72px;
-  margin-top:8px;
-  color:#f16870;
 }
 
 .mail-me-hover{
@@ -368,9 +347,10 @@
   align-items: center;
   color: #F3F3F3;
   border-radius: 50px;
-  width: 9em;
-  height: 2em;
+  width: 130px;
+  height: 32px;
   animation: wiggle 0.5s;
+  font-size:16px;
 }
 
 .mail-me-button{
@@ -384,20 +364,21 @@
   align-items: center;
   color: #f16870;
   border-radius: 50px;
-  width: 9em;
-  height: 2em;
+  width: 130px;
+  height: 32px;
+  font-size:16px;
 }
 
 .card-container{
   z-index: 2;
   border-radius: 40px;
-  width: 30em;
+  width: 480px;
   opacity: 0.98;
   flex-direction : row;
   position:absolute;
-  margin: 9em 28em;
-  height: 20em;
-  padding: 16px;
+  height: 310px;
+  top: 30%;
+  padding: 24px;
   color: #F4F4F4;
   box-shadow: 0px 0px 0px 7px #f16870;
   border: 3px dashed #F4F4F4;
@@ -406,8 +387,13 @@
 
 .stamp{
   float:right;
-  height: 6em;
-  width: 6em;
+  height: 100px;
+  width: 100px;
+}
+
+.post-body{
+  margin-top: 55px;
+  font-size:18px;
 }
 
 header{
@@ -467,11 +453,10 @@ header{
 
 
 .bg-home-container{
-  height: 30em;
-  width: 90em;
+  height: 100vh;
+  width: 80vw;
   background-color: #fff8f4;
-  margin-top: 15%;
-  bottom: 5%;
+  margin-top: 35vh;
 }
 
 .home-catch-container{
@@ -484,8 +469,7 @@ header{
 }
 
 .home-titles-container{
-  height: 5em;
-  width: 60em;
+  width: 60vw;
   float:right;
   display: flex;
   text-align: right;
@@ -497,14 +481,97 @@ header{
   font-size: 32px;
 }
 
+.just-mobile{
+  display:none;
+}
 
 
 
 /*------------------- PHONE SIZE ------------------*/
-/* @media screen and (max-width: 600px) {
-  
+ @media screen and (max-width: 1024px) {
 
-} */
+ .App, body{
+  /* background: #ffeed0; */
+  background: #fff8f4;
+  font-family: 'Poppins', sans-serif;
+  font-size: 6px;
+}
+
+.flex-container{
+  height: 100vh;
+  width: 100vw;
+  padding: 10px;
+}
+
+/*-------------NAVIGATION HIDDEN---------------*/  
 
 
+.top-nav-full{
+  display:none;
+}
 
+.nav-link-inactive{
+ display:none;
+}
+
+.nav-link-inactive:hover{
+ display:none;
+}
+
+.nav-link-active{
+ display:none;
+}
+
+.nav-link-active:hover{
+ display:none;
+}
+
+/*---------HOME-----------*/
+
+.home-titles-container {
+  padding: 30vh 5vw 0 5vw;
+}
+
+.bg-home-container{
+  height: 100vh;
+  width: 100vw;
+  background-color: #fff8f4;
+  margin: 0 50px 0 50px;
+
+ }
+ .home-titles-container{
+  display: flex;
+  flex-direction: column;
+ }
+
+.just-mobile{
+  display: block;
+  -webkit-text-stroke: 0.5px #f16870;
+  color:#f16870;
+  font-size: 14px;
+}
+
+.home-titles{
+  -webkit-text-stroke: 0px #f16870;
+  color:#f16870;
+  font-size: 14px;
+}
+
+.ig-icon{
+  height: 40px;
+  width: 40px;
+}
+
+
+/*--------ABOUT SMALL-----------*/
+
+.main-container {
+  display:none;
+}
+
+.side-bar-container{
+  display:none;
+}
+
+
+ }

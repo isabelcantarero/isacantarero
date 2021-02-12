@@ -2,6 +2,7 @@ import React, { Component, useState } from "react";
 import Modal from 'react-modal';
 import App from "../App";
 import Presentation from "../components/presentation.js";
+import igicon from "../images/igicon.png";
 
 class Home extends Component {
   constructor(props) {
@@ -45,11 +46,29 @@ class Home extends Component {
             </p>
           </div> */}
           <div className="home-titles-container">
+            <p className="just-mobile">
+            Hey! Isa here :)  </p>
+             <p className="just-mobile">
+            I haven't work on a mobile version yet.. </p>
+             <p className="just-mobile">
+            But the best is yet to come! </p>
+            <p> </p>
+            <p></p>
             <p className="home-titles">
               I love how technology and design combined can create such
               extraordinary projects and how interesting is all the logistics
               behind the making of an amazing project.
             </p>
+            <p> </p>
+            <p> </p>
+            <p> </p>
+            <p> </p>
+            <p className="just-mobile"> Please find me on my ig, I'd love to hear from you! </p>
+            <div className="just-mobile">
+             <a href={"\http://instagram.com/isa.cantarero"}><img className="ig-icon" src={igicon} alt="ig"/> </a>
+            
+            </div>
+
 {/* 
 
             <button className="mail-me-button" type="button" onClick={this.handleOpen}>
